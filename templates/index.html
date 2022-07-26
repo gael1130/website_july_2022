@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Gael Gendre portfolio website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}">
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="https://www.linkedin.com/in/gaelgendre/" target="_blank" class="image avatar"><img src="static/images/avatar.JPEG" alt="" /></a>
+					<h1><strong>I am Gaël</strong>, a developer<br />
+					passionate about <br />
+					Web3, AI & No Code</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Shipping cool projects for humans. Main tools include Python, Js, Flutter, Solidity & Solana</h2>
+						</header>
+						<p>"Software projects can be thought of as having two distinct stages: figuring out what to build (build the right product), and building it (building the product right). "
+							- Marty Cagan <br> If you need help with that, send me an email at gaelgendre@proton.me</p>
+
+						      <div class="contact">
+								  <div class="icon">
+									  <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg">
+										  <path d="M.254 10.188H15.12V.438H.254v9.75zm2.403-8.635h10.075L7.72 4.923l-5.062-3.37zm-1.287.484l6.352 4.228 6.283-4.222v7.03H1.37V2.037z" fill="#a2a2a2" fill-rule="evenodd"/></svg>
+								  </div>
+								  <span class="mail" data-status="Click to Copy!" id="emailToCopy">gaelgendre@proton.me</span>
+							  </div>
+
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://podcasts.apple.com/fr/podcast/pepicast-beginners-mind/id1397153563" target="_blank" data-poptrox="ignore" class="image fit thumb">
+									<img src="static/images/thumbs/chris-lynch-podcast-2-thumb.jpg" alt="" />
+								</a>
+								<h3><a href="https://podcasts.apple.com/fr/podcast/pepicast-beginners-mind/id1397153563" target="_blank" class="icon brands fab fa-itunes"> Pepicast Podcast</a></h3>
+								<p>75 episodes ranging from gamification to rest</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="static/images/fulls/OCM bird.gif" class="image fit thumb" data-poptrox="ignore" target="_blank"><img src="static/images/thumbs/ocm_thumb.jpg" alt="" /></a>
+								<h3><a href="https://github.com/gael1130/ocm_bird" target="_blank" class="icon brands fa-github"> Game in the browser  </a></h3>
+								<p>A game for the <a href="https://onchainmonkey.com/" target="_blank">OnChain Monkey NFT project</a> </p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://www.loom.com/share/f1bc39cb85444a4fa99cde557fd7a417" target="_blank" data-poptrox="ignore" class="image fit thumb"><img src="static/images/thumbs/voice-assistant-thumb.jpg" alt="" /></a>
+								<h3><a href="https://github.com/gael1130/voice-assistant-in-python" target="_blank" class="icon brands fa-github"> Voice Assistant  </a></h3>
+								<p>A voice assistant made in Python to read quotes, add items to a todolist and play music on spotify</p>
+							</article>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/gaelgendre/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://twitter.com/Gael1130" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/gael1130/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+
+						<li><a href="mailto:gaelgendre@proton.me" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; <script type="text/JavaScript"> document.write(new Date().getFullYear()); </script></li>
+						<li>
+							Made with <i class="fas fa-heart"></i> in Paris
+<!--							thanks to http://html5up.net | https://unsplash.com/@maltehelmhold  | https://unsplash.com/@chris_lynch_-->
+						</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+		<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='assets/js/jquery.poptrox.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+	</body>
+</html>
